@@ -7,6 +7,7 @@
       "cache": true
     },
     "e2e": {
+      "dependsOn": ["^build"],
       "cache": true
     },
     "lint": {
@@ -20,5 +21,13 @@
   "namedInputs": {
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/verify.yml"],
     "default": ["sharedGlobals"]
-  }
+  },
+  "plugins": [
+    {
+      "plugin": "@nx/playwright/plugin",
+      "options": {
+        "targetName": "playwright:e2e"
+      }
+    }
+  ]
 }

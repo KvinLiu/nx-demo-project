@@ -22,7 +22,7 @@ jobs:
         with:
           version: 9
           run_install: false
-      - run: pnpm dlx nx-cloud start-ci-run --distribute-on="5 linux-medium-js"
+      - run: pnpm dlx nx-cloud start-ci-run --distribute-on="5 linux-medium-js" --stop-agents-after="e2e-ci"
       - name: Install dependencies
         run: pnpm install
       - name: Install Playwright Browsers
@@ -31,9 +31,9 @@ jobs:
         run: |
           pnpm format:check
           pnpm lint
-          pnpm exec nx affected -t test build
+          pnpm exec nx affected -t test build e2e-ci
       - name: Run Playwright tests
-        run: pnpm --filter "@tasker/e2e-web" e2e
+        run: pnpm --filter "@tasker/e2e-web" e2e-ci
       - uses: actions/upload-artifact@v4
         if: always()
         with:
