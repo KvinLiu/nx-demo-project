@@ -1024,3 +1024,510 @@ Node.js v22.14.0
 [NX v21.2.1 Daemon Server] - 2025-06-29T06:27:33.328Z - Time taken for 'total for creating and serializing project graph' 0.22333299997262657ms
 [NX v21.2.1 Daemon Server] - 2025-06-29T06:27:33.330Z - Done responding to the client project-graph
 [NX v21.2.1 Daemon Server] - 2025-06-29T06:27:33.330Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:22.313Z - [WATCHER]: e2e/web/project.json was created or restored
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:22.317Z - [WATCHER]: Processing file changes in outputs
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:22.418Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:22.418Z - [REQUEST]: e2e/web/project.json
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:22.418Z - [REQUEST]: 
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:22.425Z - Time taken for 'hash changed files from watcher' 0.763499999884516ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:22.448Z - Time taken for 'build-project-configs' 24.180500000016764ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:22.461Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:22.461Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:22.461Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:22.461Z - Time taken for 'total execution time for createProjectGraph()' 11.34470900008455ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:22.965Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:22.966Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+     - e2e/web/project.json: Error: ValueExpected in /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/e2e/web/project.json at 1:1
+  > 1 | 
+      | ^
+  
+      at parseJson (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/utils/json.js:29:15)
+      at readJsonFile (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/utils/fileutils.js:32:37)
+      at /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/plugins/project-json/build-nodes/project-json.js:16:59
+      at /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/plugins/utils.js:10:33
+      at Array.map (<anonymous>)
+      at createNodesFromFiles (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/plugins/utils.js:8:35)
+      at exports.ProjectJsonProjectsPlugin.createNodesV2 (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/plugins/project-json/build-nodes/project-json.js:15:55)
+      at LoadedNxPlugin.createNodes (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:22:65)
+      at LoadedNxPlugin.createNodes.<computed> (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:32:34)
+      at createNodes (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:76:63)
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:22.974Z - Done responding to the client null
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:22.974Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 8.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:55.833Z - [WATCHER]: Processing file changes in outputs
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:55.835Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:55.835Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:55.835Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:55.835Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:55.836Z - Time taken for 'changed-projects' 0.08458300004713237ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:55.936Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:55.936Z - [REQUEST]: e2e/web/project.json
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:55.936Z - [REQUEST]: e2e/web/4913
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:55.938Z - Time taken for 'hash changed files from watcher' 0.14270800002850592ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:55.950Z - Time taken for 'build-project-configs' 11.066875000018626ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:55.961Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:55.961Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:55.961Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:55.961Z - Time taken for 'total execution time for createProjectGraph()' 9.461124999914318ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:56.467Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:56.468Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+    MultipleProjectsWithSameNameError: The following projects are defined in multiple locations:
+  - @tasker/e2e-web: 
+    - e2e/web
+    - @tasker/e2e-web
+  
+  To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+      at validateAndNormalizeProjectRootMap (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:468:15)
+      at mergeCreateNodesResults (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:354:9)
+      at /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:298:85
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async processFilesAndCreateAndSerializeProjectGraph (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:43)
+      at async Timeout._onTimeout (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:94:38)
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:56.474Z - Done responding to the client null
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:40:56.475Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 7.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:04.054Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:04.055Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:04.055Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:04.055Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:04.055Z - [WATCHER]: Processing file changes in outputs
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:04.055Z - Time taken for 'changed-projects' 0.05233300011605024ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:04.155Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:04.155Z - [REQUEST]: e2e/web/package.json
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:04.155Z - [REQUEST]: e2e/web/4913
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:04.156Z - Time taken for 'hash changed files from watcher' 0.09758400009013712ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:04.163Z - Time taken for 'build-project-configs' 5.219041999895126ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:04.172Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:04.172Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:04.172Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:04.172Z - Time taken for 'total execution time for createProjectGraph()' 7.968707999913022ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:04.674Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:04.674Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+    MultipleProjectsWithSameNameError: The following projects are defined in multiple locations:
+  - @tasker/e2e-web: 
+    - e2e/web
+    - @tasker/e2e-web
+  
+  To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+      at validateAndNormalizeProjectRootMap (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:468:15)
+      at mergeCreateNodesResults (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:354:9)
+      at /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:298:85
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async processFilesAndCreateAndSerializeProjectGraph (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:43)
+      at async Timeout._onTimeout (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:94:38)
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:04.678Z - Done responding to the client null
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:04.679Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 5.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:14.004Z - Established a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:14.005Z - Established a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:14.005Z - Closed a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:14.006Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:14.006Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+    MultipleProjectsWithSameNameError: The following projects are defined in multiple locations:
+  - @tasker/e2e-web: 
+    - e2e/web
+    - @tasker/e2e-web
+  
+  To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+      at validateAndNormalizeProjectRootMap (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:468:15)
+      at mergeCreateNodesResults (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:354:9)
+      at /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:298:85
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async processFilesAndCreateAndSerializeProjectGraph (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:43)
+      at async Timeout._onTimeout (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:94:38)
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:14.008Z - Done responding to the client null
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:14.008Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:14.024Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:14.024Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+    MultipleProjectsWithSameNameError: The following projects are defined in multiple locations:
+  - @tasker/e2e-web: 
+    - e2e/web
+    - @tasker/e2e-web
+  
+  To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+      at validateAndNormalizeProjectRootMap (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:468:15)
+      at mergeCreateNodesResults (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:354:9)
+      at /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:298:85
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async processFilesAndCreateAndSerializeProjectGraph (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:43)
+      at async Timeout._onTimeout (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:94:38)
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:14.026Z - Done responding to the client null
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:14.026Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:14.027Z - Established a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:14.028Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:14.028Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+    MultipleProjectsWithSameNameError: The following projects are defined in multiple locations:
+  - @tasker/e2e-web: 
+    - e2e/web
+    - @tasker/e2e-web
+  
+  To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+      at validateAndNormalizeProjectRootMap (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:468:15)
+      at mergeCreateNodesResults (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:354:9)
+      at /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:298:85
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async processFilesAndCreateAndSerializeProjectGraph (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:43)
+      at async Timeout._onTimeout (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:94:38)
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:14.029Z - Done responding to the client null
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:41:14.029Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.012Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.013Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.013Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.013Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.013Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.013Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.013Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.013Z - [WATCHER]: Processing file changes in outputs
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.013Z - Time taken for 'changed-projects' 0.10341700026765466ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.114Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.114Z - [REQUEST]: e2e/web/project.json
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.114Z - [REQUEST]: e2e/web/4913
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.118Z - Time taken for 'hash changed files from watcher' 0.7914169998839498ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.128Z - Time taken for 'build-project-configs' 9.055249999742955ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.142Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.142Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.142Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.142Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.142Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.142Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.142Z - Time taken for 'total execution time for createProjectGraph()' 12.262041999958456ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.645Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.646Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+    MultipleProjectsWithSameNameError: The following projects are defined in multiple locations:
+  - @tasker/e2e-web: 
+    - e2e/web
+    - @tasker/e2e-web
+  
+  To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+      at validateAndNormalizeProjectRootMap (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:468:15)
+      at mergeCreateNodesResults (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:354:9)
+      at /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:298:85
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async processFilesAndCreateAndSerializeProjectGraph (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:43)
+      at async Timeout._onTimeout (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:94:38)
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.650Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.650Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+    MultipleProjectsWithSameNameError: The following projects are defined in multiple locations:
+  - @tasker/e2e-web: 
+    - e2e/web
+    - @tasker/e2e-web
+  
+  To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+      at validateAndNormalizeProjectRootMap (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:468:15)
+      at mergeCreateNodesResults (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:354:9)
+      at /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:298:85
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async processFilesAndCreateAndSerializeProjectGraph (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:43)
+      at async Timeout._onTimeout (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:94:38)
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.661Z - Done responding to the client null
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.662Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 12.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.662Z - Done responding to the client null
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:13.662Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 16.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.200Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.201Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.201Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.201Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.201Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.201Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.201Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.201Z - [WATCHER]: Processing file changes in outputs
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.201Z - Time taken for 'changed-projects' 0.025667000096291304ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.301Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.301Z - [REQUEST]: e2e/web/project.json
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.301Z - [REQUEST]: e2e/web/4913
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.303Z - Time taken for 'hash changed files from watcher' 0.09404199989512563ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.307Z - Time taken for 'build-project-configs' 3.48720799991861ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.314Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.314Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.314Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.314Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.314Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.314Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.314Z - Time taken for 'total execution time for createProjectGraph()' 5.440084000118077ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.817Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.817Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+    MultipleProjectsWithSameNameError: The following projects are defined in multiple locations:
+  - @tasker/e2e-web: 
+    - e2e/web
+    - @tasker/e2e-web
+  
+  To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+      at validateAndNormalizeProjectRootMap (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:468:15)
+      at mergeCreateNodesResults (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:354:9)
+      at /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:298:85
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async processFilesAndCreateAndSerializeProjectGraph (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:43)
+      at async Timeout._onTimeout (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:94:38)
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.820Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.821Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+    MultipleProjectsWithSameNameError: The following projects are defined in multiple locations:
+  - @tasker/e2e-web: 
+    - e2e/web
+    - @tasker/e2e-web
+  
+  To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+      at validateAndNormalizeProjectRootMap (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:468:15)
+      at mergeCreateNodesResults (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:354:9)
+      at /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:298:85
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async processFilesAndCreateAndSerializeProjectGraph (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:43)
+      at async Timeout._onTimeout (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:94:38)
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.825Z - Done responding to the client null
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.825Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 8.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.825Z - Done responding to the client null
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:14.825Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 4.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.655Z - [WATCHER]: Processing file changes in outputs
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.656Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.656Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.656Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.656Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.656Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.656Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.656Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.656Z - Time taken for 'changed-projects' 0.13337500020861626ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.756Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.756Z - [REQUEST]: e2e/web/project.json
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.756Z - [REQUEST]: e2e/web/4913
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.757Z - Time taken for 'hash changed files from watcher' 0.10970799997448921ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.761Z - Time taken for 'build-project-configs' 3.4886249997653067ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.769Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.769Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.769Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.769Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.769Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.769Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:22.769Z - Time taken for 'total execution time for createProjectGraph()' 6.112583999987692ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:23.272Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:23.272Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+    MultipleProjectsWithSameNameError: The following projects are defined in multiple locations:
+  - @tasker/e2e-web: 
+    - e2e/web
+    - @tasker/e2e-web
+  
+  To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+      at validateAndNormalizeProjectRootMap (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:468:15)
+      at mergeCreateNodesResults (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:354:9)
+      at /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:298:85
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async processFilesAndCreateAndSerializeProjectGraph (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:43)
+      at async Timeout._onTimeout (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:94:38)
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:23.275Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:23.275Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+    MultipleProjectsWithSameNameError: The following projects are defined in multiple locations:
+  - @tasker/e2e-web: 
+    - e2e/web
+    - @tasker/e2e-web
+  
+  To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+      at validateAndNormalizeProjectRootMap (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:468:15)
+      at mergeCreateNodesResults (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:354:9)
+      at /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:298:85
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async processFilesAndCreateAndSerializeProjectGraph (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:43)
+      at async Timeout._onTimeout (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:94:38)
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:23.279Z - Done responding to the client null
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:23.279Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 7.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:23.282Z - Done responding to the client null
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:42:23.282Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 7.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:43:23.725Z - Closed a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:43:23.728Z - Closed a connection. Number of open connections: 2
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:49:30.146Z - [WATCHER]: nx.json was created or restored
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:49:30.148Z - [WATCHER]: Processing file changes in outputs
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:49:30.250Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:49:30.250Z - [REQUEST]: nx.json
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:49:30.250Z - [REQUEST]: 
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:49:30.256Z - Time taken for 'hash changed files from watcher' 1.3734579998999834ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:49:30.273Z - Time taken for 'build-project-configs' 17.138707999605685ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:49:30.281Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:49:30.281Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:49:30.281Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:49:30.281Z - Time taken for 'total execution time for createProjectGraph()' 7.165458000265062ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:49:30.785Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:49:30.786Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+    MultipleProjectsWithSameNameError: The following projects are defined in multiple locations:
+  - @tasker/e2e-web: 
+    - e2e/web
+    - @tasker/e2e-web
+  
+  To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+      at validateAndNormalizeProjectRootMap (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:468:15)
+      at mergeCreateNodesResults (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:354:9)
+      at /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:298:85
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async processFilesAndCreateAndSerializeProjectGraph (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:43)
+      at async Timeout._onTimeout (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:94:38)
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:49:30.791Z - Done responding to the client null
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:49:30.792Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 7.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:26.608Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:26.609Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:26.609Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:26.610Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:26.610Z - [WATCHER]: Processing file changes in outputs
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:26.610Z - Time taken for 'changed-projects' 0.18474999954923987ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:26.710Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:26.710Z - [REQUEST]: package.json
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:26.710Z - [REQUEST]: 4913
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:26.713Z - Time taken for 'hash changed files from watcher' 0.6463330001570284ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:26.722Z - Time taken for 'build-project-configs' 8.689875000156462ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:26.732Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:26.732Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:26.732Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:26.732Z - Time taken for 'total execution time for createProjectGraph()' 8.019749999977648ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:27.234Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:27.235Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+    MultipleProjectsWithSameNameError: The following projects are defined in multiple locations:
+  - @tasker/e2e-web: 
+    - e2e/web
+    - @tasker/e2e-web
+  
+  To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+      at validateAndNormalizeProjectRootMap (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:468:15)
+      at mergeCreateNodesResults (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:354:9)
+      at /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:298:85
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async processFilesAndCreateAndSerializeProjectGraph (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:43)
+      at async Timeout._onTimeout (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:94:38)
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:27.240Z - Done responding to the client null
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:27.240Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 5.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:40.668Z - [WATCHER]: _tmp_33223_8d40d14ddbe3ffb886acd8e3be94bb4c was deleted
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:40.668Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:40.668Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:40.668Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:40.668Z - [WATCHER]: Processing file changes in outputs
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:40.668Z - Time taken for 'changed-projects' 0.03049999987706542ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:40.768Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:40.768Z - [REQUEST]: 
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:40.768Z - [REQUEST]: _tmp_33223_8d40d14ddbe3ffb886acd8e3be94bb4c
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:40.769Z - Time taken for 'hash changed files from watcher' 0.07524999976158142ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:40.775Z - Time taken for 'build-project-configs' 4.600291999988258ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:40.783Z - Time taken for 'total execution time for createProjectGraph()' 6.417042000219226ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:41.170Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:41.170Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+    MultipleProjectsWithSameNameError: The following projects are defined in multiple locations:
+  - @tasker/e2e-web: 
+    - e2e/web
+    - @tasker/e2e-web
+  
+  To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+      at validateAndNormalizeProjectRootMap (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:468:15)
+      at mergeCreateNodesResults (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:354:9)
+      at /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:298:85
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async processFilesAndCreateAndSerializeProjectGraph (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:43)
+      at async Timeout._onTimeout (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:94:38)
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:41.173Z - Done responding to the client null
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:41.173Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:50.631Z - [WATCHER]: Processing file changes in outputs
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:50.639Z - Closed a connection. Number of open connections: 1
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:50.639Z - Closed a connection. Number of open connections: 0
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:50.639Z - [WATCHER]: Stopping the watcher for /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx (sources)
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:50.643Z - [WATCHER]: Stopping the watcher for /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx (outputs)
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:53:50.658Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:38.991Z - Started listening on: /var/folders/pc/yxbd9xhs5tn4pq3_5fs8m5f80000gn/T/3db05f3e7f2cf41a788f/d.sock
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:38.995Z - [WATCHER]: Subscribed to changes within: /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx (native)
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:38.996Z - Established a connection. Number of open connections: 1
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:38.997Z - Established a connection. Number of open connections: 2
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:38.998Z - Closed a connection. Number of open connections: 1
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:38.998Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:39.001Z - Time taken for 'loadSpecifiedNxPlugins' 1.0010839999999916ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:39.054Z - [WATCHER]: Processing file changes in outputs
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:39.095Z - Time taken for 'Load Nx Plugin: /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/plugins/package-json' 96.213125ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:39.096Z - Time taken for 'Load Nx Plugin: /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 96.721125ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:39.107Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:39.107Z - [REQUEST]: 
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:39.108Z - [REQUEST]: 
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:39.112Z - Time taken for 'loadDefaultNxPlugins' 108.381709ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:39.304Z - Time taken for 'build-project-configs' 185.005042ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:39.319Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+    MultipleProjectsWithSameNameError: The following projects are defined in multiple locations:
+  - @tasker/e2e-web: 
+    - e2e/web
+    - @tasker/e2e-web
+  
+  To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+      at validateAndNormalizeProjectRootMap (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:468:15)
+      at mergeCreateNodesResults (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:354:9)
+      at /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/project-graph/utils/project-configuration-utils.js:298:85
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async processFilesAndCreateAndSerializeProjectGraph (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:43)
+      at async getCachedSerializedProjectGraphPromise (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:52:24)
+      at async handleRequestProjectGraph (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+      at async handleResult (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/server.js:186:16)
+      at async handleMessage (/Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/server.js:109:9)
+      at async /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/daemon/server/server.js:74:9
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:39.320Z - Time taken for 'total execution time for createProjectGraph()' 15.93795799999998ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:39.321Z - Done responding to the client null
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:39.321Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 321. Response time: 2.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:54:39.323Z - Closed a connection. Number of open connections: 0
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:57:52.810Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:57:52.811Z - [WATCHER]: Processing file changes in outputs
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:57:52.912Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:57:52.912Z - [REQUEST]: e2e/web/project.json
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:57:52.912Z - [REQUEST]: e2e/web/4913
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:57:52.915Z - Time taken for 'hash changed files from watcher' 0.7482920000038575ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:57:52.925Z - Time taken for 'build-project-configs' 9.410875000001397ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:57:52.936Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:57:52.937Z - Time taken for 'total execution time for createProjectGraph()' 9.225416999979643ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:01.977Z - Established a connection. Number of open connections: 1
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:01.978Z - Closed a connection. Number of open connections: 0
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:01.978Z - Established a connection. Number of open connections: 1
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:01.979Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:01.979Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:01.979Z - Time taken for 'total for creating and serializing project graph' 0.11833300002035685ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:01.981Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:01.981Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:11.350Z - Closed a connection. Number of open connections: 0
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:11.428Z - [WATCHER]: 1 file(s) created or restored, 1 file(s) modified, 0 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:11.428Z - [WATCHER]: Processing file changes in outputs
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:11.529Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:11.529Z - [REQUEST]: .github/workflows/ci.yml,nx.json
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:11.529Z - [REQUEST]: 
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:11.530Z - Time taken for 'hash changed files from watcher' 0.27291699999477714ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:11.537Z - Time taken for 'build-project-configs' 5.551624999992782ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:11.544Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:11.545Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:11.545Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:11.545Z - Time taken for 'total execution time for createProjectGraph()' 6.527417000004789ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:29.857Z - Established a connection. Number of open connections: 1
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:29.865Z - Established a connection. Number of open connections: 2
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:29.866Z - Closed a connection. Number of open connections: 1
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:29.866Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:29.866Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:29.867Z - Time taken for 'total for creating and serializing project graph' 0.12316600000485778ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:29.870Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:29.870Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:29.879Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:29.879Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:29.879Z - Time taken for 'total for creating and serializing project graph' 0.1623750000144355ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:29.880Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:29.880Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:29.881Z - Established a connection. Number of open connections: 2
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:29.881Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:29.881Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:29.881Z - Time taken for 'total for creating and serializing project graph' 0.11100000000442378ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:29.882Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:58:29.882Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:59:04.438Z - Closed a connection. Number of open connections: 1
+[NX v21.2.1 Daemon Server] - 2025-06-29T06:59:04.443Z - Closed a connection. Number of open connections: 0
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:01:50.659Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:01:50.660Z - [WATCHER]: Processing file changes in outputs
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:01:50.761Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:01:50.761Z - [REQUEST]: nx.json
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:01:50.761Z - [REQUEST]: 4913
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:01:50.764Z - Time taken for 'hash changed files from watcher' 0.8038750000414439ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:01:50.773Z - Time taken for 'build-project-configs' 7.837958999967668ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:01:50.782Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:01:50.782Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:01:50.782Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:01:50.782Z - Time taken for 'total execution time for createProjectGraph()' 7.452250000031199ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:02:01.236Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:02:01.236Z - [WATCHER]: Processing file changes in outputs
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:02:01.336Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:02:01.336Z - [REQUEST]: .github/workflows/__ci.yml
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:02:01.336Z - [REQUEST]: .github/workflows/ci.yml
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:02:01.338Z - Time taken for 'hash changed files from watcher' 0.1182919999700971ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:02:01.348Z - Time taken for 'build-project-configs' 9.280709000013303ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:02:01.357Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:02:01.357Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:02:01.357Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-29T07:02:01.357Z - Time taken for 'total execution time for createProjectGraph()' 6.635084000008646ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:03:16.137Z - [WATCHER]: Stopping the watcher for /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx (sources)
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:03:16.141Z - [WATCHER]: Stopping the watcher for /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx (outputs)
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:03:16.143Z - Server stopped because: "10800000ms of inactivity"
