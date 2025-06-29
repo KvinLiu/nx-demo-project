@@ -1531,3 +1531,35 @@ Node.js v22.14.0
 [NX v21.2.1 Daemon Server] - 2025-06-29T10:03:16.137Z - [WATCHER]: Stopping the watcher for /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx (sources)
 [NX v21.2.1 Daemon Server] - 2025-06-29T10:03:16.141Z - [WATCHER]: Stopping the watcher for /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx (outputs)
 [NX v21.2.1 Daemon Server] - 2025-06-29T10:03:16.143Z - Server stopped because: "10800000ms of inactivity"
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.149Z - Started listening on: /var/folders/pc/yxbd9xhs5tn4pq3_5fs8m5f80000gn/T/3db05f3e7f2cf41a788f/d.sock
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.157Z - [WATCHER]: Subscribed to changes within: /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx (native)
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.158Z - Established a connection. Number of open connections: 1
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.159Z - Established a connection. Number of open connections: 2
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.160Z - Closed a connection. Number of open connections: 1
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.161Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.164Z - Time taken for 'loadSpecifiedNxPlugins' 0.6699169999999981ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.249Z - Time taken for 'Load Nx Plugin: /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 87.50300000000001ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.250Z - Time taken for 'Load Nx Plugin: /Users/kevinl/myProjects/nx_projects/nx-course-pnpm-nx/node_modules/.pnpm/nx@21.2.1/node_modules/nx/src/plugins/package-json' 89.018083ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.260Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.260Z - [REQUEST]: 
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.260Z - [REQUEST]: 
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.263Z - Time taken for 'loadDefaultNxPlugins' 98.287042ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.475Z - Time taken for 'build-project-configs' 204.23091700000003ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.492Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.492Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.492Z - Time taken for 'total for creating and serializing project graph' 331.41091700000004ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.493Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.493Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 332. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.502Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.502Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.502Z - Time taken for 'total for creating and serializing project graph' 0.07887499999998226ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.502Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.503Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.504Z - Established a connection. Number of open connections: 2
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.504Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.504Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.504Z - Time taken for 'total for creating and serializing project graph' 0.05225000000001501ms
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.504Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:04.504Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:15.351Z - Closed a connection. Number of open connections: 1
+[NX v21.2.1 Daemon Server] - 2025-06-29T10:59:15.354Z - Closed a connection. Number of open connections: 0

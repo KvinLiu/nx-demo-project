@@ -346,6 +346,9 @@
         "tags": [
           "npm:private"
         ],
+        "implicitDependencies": [
+          "@tasker/web"
+        ],
         "metadata": {
           "targetGroups": {
             "NPM Scripts": [
@@ -371,10 +374,7 @@
             "parallelism": true,
             "cache": true
           }
-        },
-        "implicitDependencies": [
-          "@tasker/web"
-        ]
+        }
       }
     }
   },
@@ -7547,6 +7547,21 @@
         "source": "@tasker/e2e-web",
         "target": "@tasker/web",
         "type": "implicit"
+      },
+      {
+        "source": "@tasker/e2e-web",
+        "target": "npm:date-fns",
+        "type": "static"
+      },
+      {
+        "source": "@tasker/e2e-web",
+        "target": "npm:@playwright/test",
+        "type": "static"
+      },
+      {
+        "source": "@tasker/e2e-web",
+        "target": "npm:@types/node",
+        "type": "static"
       }
     ],
     "npm:@babel/code-frame": [
@@ -15508,5 +15523,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1751180521354
+  "computedAt": 1751194744490
 }
