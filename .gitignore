@@ -19,6 +19,7 @@ out/
 build
 dist
 tmp
+.nx
 
 # Debug
 npm-debug.log*

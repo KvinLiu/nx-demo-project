@@ -1,8 +1,8 @@
 {
   "run": {
-    "command": "nx start @tasker/web",
-    "startTime": "2025-06-29T06:16:16.016Z",
-    "endTime": "2025-06-29T06:18:45.393Z",
+    "command": "nx build @tasker/web",
+    "startTime": "2025-06-29T11:52:33.351Z",
+    "endTime": "2025-06-29T11:52:33.421Z",
     "inner": false
   },
   "tasks": [
@@ -10,22 +10,11 @@
       "taskId": "@tasker/web:build",
       "target": "build",
       "projectName": "@tasker/web",
-      "hash": "4171569719286387578",
-      "startTime": "2025-06-29T06:16:16.061Z",
-      "endTime": "2025-06-29T06:16:34.056Z",
+      "hash": "13285771925998215848",
+      "startTime": "2025-06-29T11:52:33.400Z",
+      "endTime": "2025-06-29T11:52:33.415Z",
       "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 0
-    },
-    {
-      "taskId": "@tasker/web:start",
-      "target": "start",
-      "projectName": "@tasker/web",
-      "hash": "7672003872056922384",
-      "startTime": "2025-06-29T06:16:34.083Z",
-      "endTime": "2025-06-29T06:18:45.382Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
+      "cacheStatus": "local-cache-hit",
       "status": 0
     }
   ]

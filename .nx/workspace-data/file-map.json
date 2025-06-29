@@ -6,64 +6,64 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".github/workflows/__ci.yml",
-        "hash": "15655878177218533551"
-      },
-      {
-        "file": ".github/workflows/verify.yml",
-        "hash": "3072282987394405095"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "15780721038863935550"
-      },
-      {
         "file": ".npmrc",
         "hash": "3244421341483603138"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "6549623600993060112"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "1409024233119639755"
-      },
-      {
-        "file": "README.md",
-        "hash": "6772989637119290516"
-      },
-      {
-        "file": "eslint.config.js",
-        "hash": "16836957567313904017"
-      },
-      {
-        "file": "migrations.json",
-        "hash": "18384169132880030658"
-      },
-      {
-        "file": "nx.json",
-        "hash": "7699042424669166647"
-      },
-      {
-        "file": "package.json",
-        "hash": "15222995499668363332"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "9744972504578314046"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "9819753831465000102"
       },
       {
         "file": "tsconfig.base.json",
         "hash": "11086628576018310275"
       },
       {
+        "file": ".github/workflows/verify.yml",
+        "hash": "9846796194413901771"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "15780721038863935550"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "1409024233119639755"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "9819753831465000102"
+      },
+      {
         "file": "vitest.workspace.ts",
         "hash": "16396322914580031330"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "9744972504578314046"
+      },
+      {
+        "file": "package.json",
+        "hash": "15222995499668363332"
+      },
+      {
+        "file": ".github/workflows/__ci.yml",
+        "hash": "15655878177218533551"
+      },
+      {
+        "file": "README.md",
+        "hash": "6772989637119290516"
+      },
+      {
+        "file": "nx.json",
+        "hash": "7699042424669166647"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "6549623600993060112"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "18384169132880030658"
+      },
+      {
+        "file": "eslint.config.js",
+        "hash": "16836957567313904017"
       }
     ],
     "projectFileMap": {
